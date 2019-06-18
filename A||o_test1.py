@@ -27,110 +27,110 @@ class MyXpaths():
             print a_1, "link is not correct"
 
     def tv_test(self):
-        a= '//ul[@id="nav"]//a[@href="//allo.ua/ru/televizory-i-mediapleery/"]'
-        a_1='tv'
-        if self.locators.get(a_1) == a:
-            print a_1, "link is correct"
+        b= '//ul[@id="nav"]//a[@href="//allo.ua/ru/televizory-i-mediapleery/"]'
+        b_1='tv'
+        if self.locators.get(b_1) == b:
+            print b_1, "link is correct"
         else:
-            print a_1, "link is not correct"
+            print b_1, "link is not correct"
     def naushniki_test(self):
-        a = '//ul[@id="nav"]//a[@href="//allo.ua/ru/naushniki-i-akustika/"]'
-        a_1 = 'naushniki'
-        if self.locators.get(a_1) == a:
-            print a_1, "link is correct"
+        c = '//ul[@id="nav"]//a[@href="//allo.ua/ru/naushniki-i-akustika/"]'
+        c_1 = 'naushniki'
+        if self.locators.get(c_1) == c:
+            print c_1, "link is correct"
         else:
-            print a_1, "link is not correct"
+            print c_1, "link is not correct"
     def notebook_test(self):
-        a = '//ul[@id="nav"]//a[@href="//allo.ua/ru/planshety-i-gadzhety/"]'
-        a_1 = 'notebook'
-        if self.locators.get(a_1) == a:
-            print a_1, "link is correct"
+        d = '//ul[@id="nav"]//a[@href="//allo.ua/ru/planshety-i-gadzhety/"]'
+        d_1 = 'notebook'
+        if self.locators.get(d_1) == d:
+            print d_1, "link is correct"
         else:
-            print a_1, "link is not correct"
+            print d_1, "link is not correct"
     def apple_test(self):
-        a = '//ul[@id="nav"]//a[@href = "//allo.ua/ru/aksessuary-apple/"]'
-        a_1 = 'apple'
-        if self.locators.get(a_1) == a:
-            print a_1, "link is correct"
+        e = '//ul[@id="nav"]//a[@href = "//allo.ua/ru/aksessuary-apple/"]'
+        e_1 = 'apple'
+        if self.locators.get(e_1) == e:
+            print e_1, "link is correct"
         else:
-            print a_1, "link is not correct"
+            print e_1, "link is not correct"
     def xiaomi_test(self):
-        a = '//ul[@id="nav"]//a[@href="//allo.ua/ru/xiaomi-page/"]'
-        a_1 = 'xiaomi'
-        if self.locators.get(a_1) == a:
-            print a_1, "link is correct"
+        f = '//ul[@id="nav"]//a[@href="//allo.ua/ru/xiaomi-page/"]'
+        f_1 = 'xiaomi'
+        if self.locators.get(f_1) == f:
+            print f_1, "link is correct"
         else:
-            print a_1, "link is not correct"
+            print f_1, "link is not correct"
     def gadzhety_test(self):
-        a = '//ul[@id="nav"]//a[@href="//allo.ua/ru/gadzhety/"]'
-        a_1 = 'gadzhety'
-        if self.locators.get(a_1) == a:
-            print a_1, "link is correct"
+        g = '//ul[@id="nav"]//a[@href="//allo.ua/ru/gadzhety/"]'
+        g_1 = 'gadzhety'
+        if self.locators.get(g_1) == g:
+            print g_1, "link is correct"
         else:
-            print a_1, "link is not correct"
+            print g_1, "link is not correct"
     def tehnika_test(self):
-        a = '//ul[@id="nav"]//a[@href="//allo.ua/ru/bytovaya-tehnika/"]'
-        a_1 = 'tehnika'
-        if self.locators.get(a_1) == a:
-            print a_1, "link is correct"
+        h = '//ul[@id="nav"]//a[@href="//allo.ua/ru/bytovaya-tehnika/"]'
+        h_1 = 'tehnika'
+        if self.locators.get(h_1) == h:
+            print h_1, "link is correct"
         else:
-            print a_1, "link is not correct"
+            print h_1, "link is not correct"
     def sport_test(self):
-        a = '//ul[@id="nav"]//a[@href="//allo.ua/ru/sport-i-zdorov-e/"]'
-        a_1 = 'sport'
-        if self.locators.get(a_1) == a:
-            print a_1, "link is correct"
+        i = '//ul[@id="nav"]//a[@href="//allo.ua/ru/sport-i-zdorov-e/"]'
+        i_1 = 'sport'
+        if self.locators.get(i_1) == i:
+            print i_1, "link is correct"
         else:
-            print a_1, "link is not correct"
+            print i_1, "link is not correct"
     def turizm_test(self):
-        a = '//ul[@id="nav"]//a[@href="//allo.ua/ru/turizm-i-rybalka/"]'
-        a_1 = 'turizm'
-        if self.locators.get(a_1) == a:
-            print a_1, "link is correct"
+        j = '//ul[@id="nav"]//a[@href="//allo.ua/ru/turizm-i-rybalka/"]'
+        j_1 = 'turizm'
+        if self.locators.get(j_1) == j:
+            print j_1, "link is correct"
         else:
-            print a_1, "link is not correct"
+            print j_1, "link is not correct"
     def santehnika_test(self):
-        a = '//ul[@id="nav"]//a[@href="//allo.ua/ru/santehnika-i-remont/"]'
-        a_1 = 'santehnika'
-        if self.locators.get(a_1) == a:
-            print a_1, "link is correct"
+        k = '//ul[@id="nav"]//a[@href="//allo.ua/ru/santehnika-i-remont/"]'
+        k_1 = 'santehnika'
+        if self.locators.get(k_1) == k:
+            print k_1, "link is correct"
         else:
-            print a_1, "link is not correct"
+            print k_1, "link is not correct"
     def dom_test(self):
-        a = '//ul[@id="nav"]//a[@href="//allo.ua/ru/dom-sad-remont/"]'
-        a_1 = 'dom'
-        if self.locators.get(a_1) == a:
-            print a_1, "link is correct"
+        l = '//ul[@id="nav"]//a[@href="//allo.ua/ru/dom-sad-remont/"]'
+        l_1 = 'dom'
+        if self.locators.get(l_1) == l:
+            print l_1, "link is correct"
         else:
-            print a_1, "link is not correct"
+            print l_1, "link is not correct"
     def detej_test(self):
-        a = '//ul[@id="nav"]//a[@href="//allo.ua/ru/tovary-dlja-detej/"]'
-        a_1 = 'detej'
-        if self.locators.get(a_1) == a:
-            print a_1, "link is correct"
+        m = '//ul[@id="nav"]//a[@href="//allo.ua/ru/tovary-dlja-detej/"]'
+        m_1 = 'detej'
+        if self.locators.get(m_1) == m:
+            print m_1, "link is correct"
         else:
-            print a_1, "link is not correct"
+            print m_1, "link is not correct"
     def avtotovary_test(self):
-        a = '//ul[@id="nav"]//a[@href="//allo.ua/ru/avtotovary/"]'
-        a_1 = 'avtotovary'
-        if self.locators.get(a_1) == a:
-            print a_1, "link is correct"
+        n = '//ul[@id="nav"]//a[@href="//allo.ua/ru/avtotovary/"]'
+        n_1 = 'avtotovary'
+        if self.locators.get(n_1) == n:
+            print n_1, "link is correct"
         else:
-            print a_1, "link is not correct"
+            print n_1, "link is not correct"
     def ukrashenija_test(self):
-        a = '//ul[@id="nav"]//a[@href="//allo.ua/ru/chasy-i-ukrashenija/"]'
-        a_1 = 'ukrashenija'
-        if self.locators.get(a_1) == a:
-            print a_1, "link is correct"
+        o = '//ul[@id="nav"]//a[@href="//allo.ua/ru/chasy-i-ukrashenija/"]'
+        o_1 = 'ukrashenija'
+        if self.locators.get(o_1) == o:
+            print o_1, "link is correct"
         else:
-            print a_1, "link is not correct"
+            print o_1, "link is not correct"
     def events_test(self):
-        a = '//ul[@id="nav"]//a[@href="//allo.ua/ru/events-and-discounts/"]'
-        a_1 = 'events'
-        if self.locators.get(a_1) == a:
-            print a_1, "link is correct"
+        p = '//ul[@id="nav"]//a[@href="//allo.ua/ru/events-and-discounts/"]'
+        p_1 = 'events'
+        if self.locators.get(p_1) == p:
+            print p_1, "link is correct"
         else:
-            print a_1, "link is not correct"
+            print p_1, "link is not correct"
 
 test = MyXpaths()
 
